@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+.head{
+    margin-top: 10px;
+    padding-right: 15px;
+}
+.head .link{
+    height: 1cm;
+    width: 34px;
+    padding: 5px;
+    margin: auto 7px;
+    cursor: pointer;
+}
+.head img:hover{
+    box-shadow: 0 5px 10px steelblue;
+    opacity: 0.4;
+}
+.head .signin:hover{
+    color: black;
+    background-color:whitesmoke;
+}
+.container1{
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+.head .link{
+    text-decoration: none;
+    text-align: left;
+}
+.head .text-link{
+    padding: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+.container2 .link{
+
+    text-decoration: 2px green solid;
+}
+.container2 .link:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: rgba(0, 0,0, 0.44);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px grey solid;
+}
+.signin{
+    color:white;
+    padding: 10px;
+    width: 100px;
+    background-color: steelblue;
+    border-radius: 10px;
+}
+.list1{
+    padding: 5px;
+    float: left;
+}
+.list2{ 
+    padding: 5px;
+    float: right;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+.link{
+    padding-left: 10px;
+    text-decoration-style: none;
+}
+.container1 .searchicon{
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    width: 20px;
+    opacity: 0.4;
+    border-radius: 5px;
+}
+.container1 .searchinput{
+    border: 2px solid grey;
+    padding: 13px;
+    padding-left: 40px;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 100%;
+}
+.container1 .searchicon:hover{
+    opacity: 0.3;
+}
+.container1 .voiceicon{
+    width: 14px;
+    position: absolute;
+    opacity: 0.4;
+    right: 24px;
+    top: 13px;
+}
+.container1 .btn{
+    border: 2px solid transparent;
+    padding: 9px 15px;
+    display: inline-block;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 28px;
+}
+.container1 .btn:hover{
+    border: black 1px solid;
+}
+.container2{
+    display: block;
+    text-align: center;
+}
+.footer .link{
+    padding: 15px;
+    text-decoration: none;
+}
+.footer .link:hover{
+    text-decoration: underline;
+}
+.container2 .link{
+    font-size: 12px;
+}
+.footer .list2{
+    padding-right: 10px;
+    padding: 5px;
+}
+.footer .nation{
+    width: 100%;
+    padding-top:5px;
+}
+.footer h3{
+    padding-left: 15px;
+    border-bottom: grey 1px solid;
+}
